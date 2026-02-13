@@ -5,7 +5,7 @@ function calculateSquare(){
     if(isNan(value) || value === '') {
         result.innerHTML = 'Invalid, please enter a number';
     }else {
-        result.inner = value * value;
+        result.innerHTML = value * value;
     
     }; 
 }
